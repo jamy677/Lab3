@@ -20,3 +20,14 @@ function ToyCar(make, model, color, scale, material, features, packaging, price,
     "$12.38",
     5
   );
+
+  function updateCarDetails() {
+    document.getElementById("carMake").textContent = nissanGTR2020.make;
+    document.getElementById("carModel").textContent = nissanGTR2020.model;
+    document.getElementById("carColor").textContent = nissanGTR2020.color;
+    document.getElementById("carScale").textContent = nissanGTR2020.scale;
+    document.getElementById("carMaterial").textContent = nissanGTR2020.material;
+    document.getElementById("carPackaging").textContent = nissanGTR2020.packaging;
+    document.getElementById("carPrice").textContent = nissanGTR2020.price;
+    document.getElementById("carQuantity").textContent = nissanGTR2020.quantity;
+  }
