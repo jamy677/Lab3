@@ -36,3 +36,10 @@ function ToyCar(make, model, color, scale, material, features, packaging, price,
     nissanGTR2020.price = "$" + newPrice;
     document.getElementById("carPrice").textContent = nissanGTR2020.price;
   }
+  function updateCarQuantity() {
+    let newQuantity = document.getElementById("updateQuantity").value;
+    nissanGTR2020.quantity = newQuantity;
+    document.getElementById("carQuantity").textContent = nissanGTR2020.quantity;
+  }
+  
+  updateCarDetails();
