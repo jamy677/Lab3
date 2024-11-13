@@ -1,0 +1,12 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3368bc;  
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;  
+    height: 9vh;
+    overflow: auto;  
+  }
