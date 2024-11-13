@@ -9,3 +9,14 @@ function ToyCar(make, model, color, scale, material, features, packaging, price,
     this.price = price;
     this.quantity = quantity;
   }
+  let nissanGTR2020 = new ToyCar(
+    "Nissan",
+    "GT-R R35",
+    "Blue",
+    "1/64",
+    "Metal Body and Chassis",
+    "Real Rubber Tires, Detailed Exterior",
+    "Blister Pack",
+    "$12.38",
+    5
+  );
